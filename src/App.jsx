@@ -10,6 +10,9 @@ function App() {
   return (
     <>
       <header>
+        <div className="head">
+          <h1>Tech Store</h1>
+        </div>
         <nav>
           <ul>
             <li>
