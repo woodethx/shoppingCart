@@ -20,16 +20,8 @@ function Home(){
             <h2>See some of our featured products</h2>
             <div className="featCards">
                 {<Card id="0"/>}
-                <div className="card">
-                    <img src="" alt="" />
-                    <h5></h5>
-                    <p></p>
-                </div>
-                <div className="card">
-                    <img src="" alt="" />
-                    <h5></h5>
-                    <p></p>
-                </div>
+                {<Card id="1"/>}
+                {<Card id="2"/>}
             </div>
         </div>
         <div className="contact"></div>

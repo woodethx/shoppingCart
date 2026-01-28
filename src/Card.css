@@ -1,0 +1,22 @@
+.card{
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+.card > p,
+.card > h2{
+    color:black;
+    text-align: center;
+}
+.card > p{
+    font-size: 1.5rem;
+}
+.featCards{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}

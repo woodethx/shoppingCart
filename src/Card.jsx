@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./Card.css";
 
 function Card(props){
     const [imgSrc, setImgSrc] = useState(null);
@@ -20,12 +21,12 @@ function Card(props){
         })
     },[]);
     return(
-        <>
-        <p>{imgSrc}</p>
-        <p>{name}</p>
-        <p>{desc}</p>
-        <p>{price}</p>
-        </>
+        <div className="card">
+            <img src={imgSrc} alt="" />
+            <h2>{name}</h2>
+            <p>${price}</p>
+            <button>Add to Cart</button>
+        </div>
     )
 }
 
