@@ -5,14 +5,14 @@ nav > ul{
     gap: 150px;
 }
 header{
-    position: absolute;
     top: 0;
     width: 100%;
-    background-color: white;
+    background-color: #932ada;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.head > h1{
+.head > h1,
+nav > ul > li > a{
     color: black;
 }

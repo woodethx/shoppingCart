@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Card.css";
+import "./Home.css";
 
 function Card(props){
     const [imgSrc, setImgSrc] = useState(null);
